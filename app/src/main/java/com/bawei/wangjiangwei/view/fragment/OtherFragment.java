@@ -6,7 +6,10 @@ import android.widget.TextView;
 
 import com.bawei.wangjiangwei.R;
 import com.bawei.wangjiangwei.base.BaseFragment;
-
+/**
+ * 姓名：王江伟
+ * 时间：2019年12月3日10:28:24
+ * 作用：其他类 */
 public class OtherFragment extends BaseFragment {
 
     private TextView tv;

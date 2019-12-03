@@ -80,6 +80,7 @@ public class NetUtils {
         }.execute();
     }
 
+    //流转字符
     private String io2String(InputStream inputStream) throws IOException {
         int len = -1;
         byte[] bytes = new byte[1024];
@@ -94,6 +95,7 @@ public class NetUtils {
         return json;
     }
 
+    //获取图片
     @SuppressLint("StaticFieldLeak")
     public void getPhoto(final String a, final ImageView imageView){
         new AsyncTask<Void, Void, Bitmap>() {
@@ -139,11 +141,13 @@ public class NetUtils {
         }.execute();
     }
 
+    //流转图片
     private Bitmap io2Bitmap(InputStream inputStream) {
         return BitmapFactory.decodeStream(inputStream);
     }
 
 
+    //提供回调借口
     public interface MyCallBack{
         void onGetJson(String json);
     }

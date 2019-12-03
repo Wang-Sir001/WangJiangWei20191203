@@ -6,6 +6,11 @@ import com.bawei.wangjiangwei.presenter.NewsPresenter;
 import com.bawei.wangjiangwei.utils.NetUtils;
 import com.google.gson.Gson;
 
+/**
+ * 姓名：王江伟
+ * 时间：2019年12月3日10:28:24
+ * 作用：model层
+ */
 public class NewsModle implements INewsContract.IModle {
     @Override
     public void getData(String url, final ModelCallBack modelCallBack) {

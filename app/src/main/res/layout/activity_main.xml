@@ -23,6 +23,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/rb1"
+            android:background="@drawable/sel"
+            android:checked="true"
             android:layout_weight="1"
             android:button="@null"
             android:text="首页"
@@ -34,6 +36,7 @@
             android:layout_height="match_parent"
             android:id="@+id/rb2"
             android:layout_weight="1"
+            android:background="@drawable/sel"
             android:button="@null"
             android:padding="10dp"
             android:text="分类"
@@ -42,6 +45,7 @@
         <RadioButton
             android:padding="10dp"
             android:layout_width="0dp"
+            android:background="@drawable/sel"
             android:layout_height="match_parent"
             android:id="@+id/rb3"
             android:layout_weight="1"
@@ -53,6 +57,7 @@
             android:padding="10dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:background="@drawable/sel"
             android:id="@+id/rb4"
             android:layout_weight="1"
             android:button="@null"
@@ -61,6 +66,7 @@
             />
         <RadioButton
             android:padding="10dp"
+            android:background="@drawable/sel"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/rb5"
